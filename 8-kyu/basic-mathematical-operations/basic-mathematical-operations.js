@@ -26,7 +26,6 @@ function basicOp(operation, value1, value2) {
 }
 
 // SOLUTION 3 (If-Else)
-
 function basicOp(operation, value1, value2) {
   if (operation === '+') {
     return value1 + value2;
