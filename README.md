@@ -6,8 +6,6 @@ Welcome to the repository for Codewars kata challenges solved in JavaScript! ğŸš
 
 - [About](#about)
 - [Challenges](#challenges)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## ğŸ” About
 
