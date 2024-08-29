@@ -2,6 +2,8 @@
 
 ### Difficulty: `8 kyu`
 
+### Tags: `Mathematics` `Fundamentals`
+
 ## Description
 
 Your task is to create a function that performs four basic mathematical operations.
