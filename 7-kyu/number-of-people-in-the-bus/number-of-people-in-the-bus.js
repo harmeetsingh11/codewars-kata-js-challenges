@@ -10,3 +10,11 @@ var number = function (busStops) {
     return peopleLeft + pair[0] - pair[1];
   }, 0); // The second argument to reduce, 0, is the initial value for peopleLeft, representing the number of people on the bus at the start.
 };
+
+// Example:
+// If busStops is [[10, 0], [3, 5], [5, 8]]:
+
+// At the first stop: 10 - 0 = 10 people on the bus.
+// At the second stop: 10 + 3 - 5 = 8 people on the bus.
+// At the third stop: 8 + 5 - 8 = 5 people on the bus.
+// The function would return 5.
