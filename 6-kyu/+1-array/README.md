@@ -1,4 +1,4 @@
-# [+1 Array](httpshttps://www.codewars.com/kata/5514e5b77e6b2f38e0000ca9)
+# [+1 Array](https://www.codewars.com/kata/5514e5b77e6b2f38e0000ca9)
 
 ### Difficulty: `6 kyu`
 
