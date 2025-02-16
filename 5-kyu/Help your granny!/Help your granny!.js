@@ -28,3 +28,17 @@ function tour(friends, townmap, dist) {
       .reduce((sum, distance) => sum + distance, 0) | 0
   );
 }
+
+/* 
+Approach Used:
+1. **Convert `townmap` into an object (`towns`)** for quick lookup of towns associated with friends.
+2. **Define a `pyth` function** to compute distances using the Pythagorean theorem.
+3. **Map `friends` to their corresponding towns** using the `towns` object.
+4. **Convert towns to their distances from `X0`** using `dist` lookup.
+5. **Filter out undefined distances** (i.e., friends whose towns are unknown).
+6. **Calculate distances using Pythagorean theorem** while handling the first and last town differently:
+   - The first town keeps its direct distance.
+   - Intermediate towns use the Pythagorean theorem for indirect travel.
+   - The last town adds its direct distance to complete the circuit.
+7. **Sum up all computed distances and return the floored value** using bitwise OR (`| 0`), ensuring an integer result.
+*/
