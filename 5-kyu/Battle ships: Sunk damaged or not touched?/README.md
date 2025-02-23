@@ -12,7 +12,8 @@ Your task in the kata is to determine how many boats are sunk damaged and untouc
 ### Example Game
 ### The board
  	
-![credit: codewars]()
+![problem image](https://github.com/user-attachments/assets/214505f3-a705-4edc-bf82-2bf4eebcd76e)
+
  
 
 Boats are placed either horizontally, vertically or diagonally on the board. `0` represents a space **not** occupied by a boat. Digits `1-3` represent boats which vary in length 1-4 spaces long. There will always be at least 1 boat up to a maximum of 3 in any one game. Boat sizes and board dimentions will vary from game to game.
