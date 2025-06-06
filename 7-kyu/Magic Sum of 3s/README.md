@@ -1,4 +1,4 @@
-# # [Magic Sum of 3s](https://www.codewars.com/kata/57193a349906afdf67000f50)
+## [Magic Sum of 3s](https://www.codewars.com/kata/57193a349906afdf67000f50)
 
 ### Difficulty: `7 kyu`
 
